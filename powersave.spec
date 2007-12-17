@@ -18,7 +18,6 @@ Conflicts: cpufreqd, apmd, powernowd
 License: GPL
 Group: System/Kernel and hardware
 Url: http://powersave.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: cpufrequtils, libcpufreq-devel, hal-devel, dbus-glib-devel
 BuildRequires: doxygen, lynx
 BuildRequires: texinfo
