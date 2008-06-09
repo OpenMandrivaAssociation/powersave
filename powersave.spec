@@ -84,9 +84,13 @@ export DONT_GPRINTIFY=1
 
 %find_lang power-management
 
+%if %mdkversion < 200900
 %post -n %{libname} -p /sbin/ldconfig
+%endif
 
+%if %mdkversion < 200900
 %postun -n %{libname} -p /sbin/ldconfig
+%endif
 
 %post
 %_post_service powersaved
