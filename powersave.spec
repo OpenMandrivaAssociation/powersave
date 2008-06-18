@@ -1,6 +1,6 @@
 %define name powersave 
 %define version 0.14.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 %define major   10
 %define libname %mklibname %{name} %{major}
