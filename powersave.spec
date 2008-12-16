@@ -19,8 +19,6 @@ License:	GPLv2+
 Group:		System/Kernel and hardware
 URL:		http://powersave.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	cpufrequtils
-BuildRequires:	libcpufreq-devel
 BuildRequires:	hal-devel
 BuildRequires:	dbus-glib-devel
 BuildRequires:	liblazy-devel
