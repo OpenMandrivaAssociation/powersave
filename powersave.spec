@@ -5,7 +5,7 @@
 Summary:	Powermanagement daemon supporting APM, ACPI and CPU frequency scaling
 Name:		powersave
 Version:	0.15.20
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
 Source1:	powersave-initscript
 Patch0:		powersave-0.15.20-underlink.patch
