@@ -17,7 +17,7 @@ Conflicts:	apmd
 Conflicts:	powernowd
 License:	GPLv2+
 Group:		System/Kernel and hardware
-URL:		http://powersave.sourceforge.net/
+URL:		https://powersave.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	hal-devel
 BuildRequires:	dbus-glib-devel
